@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Tarcísio</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  
+  <!--Menu de navegação-->
+  <header>
+    <nav>
+      <ul>
+        <!--Links de navegação que muda para diferentes páginas-->
+        <li><a href="#sobre">SOBRE</a></li>
+        <li><a href="#portfolio">PORTFÓLIO</a></li>
+        <li><a href="#formacao">FORMAÇÃO</a></li>
+        <li><a href="#contato">CONTATO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Seção sobre mim-->
+  <section id="sobre">
+    <h1>Emmanuel Tarcísio</h1>
+    <p>Estou começando minha jornada no desenvolvimento web, focado em HTML e CSS. Procuro oportunidades para crescer na área de programação.</p>
+  </section>
+
+  <!--Seção de portfólio-->
+  <section id="portfolio">
+    <h1>PORTFÓLIO</h1>
+    <p>No momento ainda não tenho nenhum projeto.</p> 
+  </section>
+
+  <!--Seção de formação acadêmica-->
+  <section id="formacao">
+    <h1>FORMAÇÃO</h1>
+    <!--Bloco para exibir informações sobre o curso-->
+    <div class="formacao-cursos">
+      <div>
+        <!--Nome do curso-->
+        <span class="nome-curso">Análise e Desenvolvimento de Sistemas</span>
+        <!--Duração do curso-->
+        <span class="duracao-curso">Uninter • 2024–Presente</span>
+      </div>
+    </div>
+  </section>
+  
+  <!--Seção de contato-->
+  <section id="contato">
+    <h1>CONTATO</h1>
+    <!--Instrução para preencher o formulário de contato-->
+    <p>Para entrar em contato comigo, preencha as informações abaixo.</p>
+    <form>
+      <!--Grupo de campos para nome-->
+      <div class="formulario-grupo">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+      </div>
+      <!--Grupo de campos para e-mail-->
+      <div class="formulario-grupo">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail">
+      </div>
+      <!--Grupo de campos para mensagem-->
+      <div class="formulario-grupo">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+      </div>
+      <!--Botão para enviar o formuláriio-->
+      <button type="submit" class="botao-enviar">Enviar</button>
+    </form>
+  </section>
+</body>
+
+</html>

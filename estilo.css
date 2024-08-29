@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Corpo da página*/
+body {
+    font-family: Arial, sans-serif;
+    color: #292929;
+    background-color: #f4f4f4;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #292929;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Navegação dentro do cabeçalho*/
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+header nav a {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+header nav a:hover {
+    background-color: #000000;
+}
+
+/*Seções principais da página*/
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/*Formação*/
+.formacao-cursos {
+    margin-bottom: 19px;
+    background-color: #a5a4a4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nome-curso {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.duracao-curso {
+    font-size: 1.0rem;
+    color: #000000;
+}
+
+/*Formulário de contato*/
+.formulario-grupo {
+    margin-bottom: 10px;
+}
+
+#contato input,
+#contato textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.botao-enviar {
+    padding: 10px;
+    background-color: #313131;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-enviar:hover {
+    background-color: #020202;
+}
